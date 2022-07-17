@@ -10,4 +10,4 @@
 
 未完成所有页面，但不影响架构设计思想及API的演示。
 进入 GitHub 认证时，请选译 Chrome 浏览器。
-[测试 APK 下载](https://github.com/linsesa/higithub/HiGitHub.apk)
+[测试 APK 下载](https://github.com/linsea/HiGitHub/blob/master/HiGitHub.apk?raw=true)
