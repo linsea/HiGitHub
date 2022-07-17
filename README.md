@@ -6,3 +6,8 @@
 - Retrofit 搭配 GitHub API 以及协程的使用
 - 官方推荐架构的最佳实践，支持离线数据展示
 - Jetpack 重要组件的使用：ViewModel, LiveData, Lifecycle, Room, View Binding 等
+
+
+未完成所有页面，但不影响架构设计思想及API的演示。
+进入 GitHub 认证时，请选译 Chrome 浏览器。
+[测试 APK 下载](https://github.com/linsesa/higithub/HiGitHub.apk)

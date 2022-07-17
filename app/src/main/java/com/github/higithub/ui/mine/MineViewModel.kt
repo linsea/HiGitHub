@@ -49,11 +49,12 @@ class MineViewModel(private val repository: UserProfileRepository) : BaseViewMod
         logcat { "getUserInfo" }
         viewModelScope.launch {
             try {
-                val userInfo = repository.refreshUserProfile()
-                val b = 0;
+                repository.refreshUserProfile()
             } catch (e: Exception) {
                 logcat { "getUserInfo err: ${e.asLog()}" }
-                _message.postValue(e.asLog())
+                if (AuthManager.hasLogined()) {
+                    _message.postValue(e.asLog())
+                }
             }
         }
 

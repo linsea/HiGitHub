@@ -69,7 +69,9 @@ class MineFragment : BaseFragment() {
             if (it != null) {
                 showUserInfo(it)
             } else {
-                Toast.makeText(requireContext(), "Load User Info Error", Toast.LENGTH_LONG).show()
+                if (AuthManager.hasLogined()) {
+                    Toast.makeText(requireContext(), "Load User Info Error", Toast.LENGTH_LONG).show()
+                }
             }
         })
 
